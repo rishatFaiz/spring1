@@ -1,0 +1,2 @@
+server:
+  port: ${application.config.eureka.port:8761}

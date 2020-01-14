@@ -1,0 +1,5 @@
+application:
+  config:
+    eureka:
+      uri: http://localhost:8760
+      port: 8760

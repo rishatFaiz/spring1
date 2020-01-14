@@ -23,6 +23,7 @@
     <modules>
         <module>configServer</module>
         <module>registryService</module>
+        <module>articleService</module>
     </modules>
 
     <dependencies>

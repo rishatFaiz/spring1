@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: articleService
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost/eureka
+  instance:
+    preferIpAddress: true
