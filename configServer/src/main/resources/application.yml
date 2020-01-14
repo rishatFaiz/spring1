@@ -3,8 +3,12 @@ server:
 spring:
   profiles:
     active: native
+  security:
+    user:
+      name: ${config.user:test}
+      password: ${config.user:test}
   cloud:
     config:
       server:
         native:
-          searchLocations: /home/rishat/Projects/GitHubProjects/spring1/configs/
+          searchLocations: classpath:/shared
