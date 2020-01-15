@@ -1,0 +1,7 @@
+server:
+  port: 8090
+zuul:
+  routes:
+    article-service:
+      path: /article-api/**
+      serviceId: ARTICLE-SERVICE

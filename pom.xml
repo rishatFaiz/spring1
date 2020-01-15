@@ -13,6 +13,7 @@
     <version>${revision}</version>
     <name>lean</name>
     <description>Demo project for Spring Boot</description>
+    <packaging>pom</packaging>
 
     <properties>
         <java.version>13</java.version>
@@ -24,6 +25,7 @@
         <module>configServer</module>
         <module>registryService</module>
         <module>articleService</module>
+        <module>gateway</module>
     </modules>
 
     <dependencies>
