@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: authorization-server
+  cloud:
+    config:
+      uri: http://localhost:8088
+      fail-fast: true
+      password: ${config.user:test}
+      username: ${config.password:test}
