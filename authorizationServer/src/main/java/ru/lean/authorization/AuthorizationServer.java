@@ -2,11 +2,13 @@ package ru.lean.authorization;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
+@EnableDiscoveryClient
 @SpringBootApplication
 public class AuthorizationServer {
 
-  public static void maint(String[] args) {
+  public static void main(String[] args) {
     SpringApplication.run(AuthorizationServer.class, args);
   }
 }

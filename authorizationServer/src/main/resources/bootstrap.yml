@@ -7,3 +7,11 @@ spring:
       fail-fast: true
       password: ${config.user:test}
       username: ${config.password:test}
+eureka:
+  client:
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:8760/eureka/
+  instance:
+    appname: authorization-server
+    preferIpAddress: true

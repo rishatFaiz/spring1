@@ -1,0 +1,4 @@
+application:
+  config:
+    eureka:
+      port: 8760
