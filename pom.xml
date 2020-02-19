@@ -27,6 +27,7 @@
         <module>articleService</module>
         <module>gateway</module>
         <module>authorizationServer</module>
+        <module>weatherService</module>
     </modules>
 
     <dependencies>

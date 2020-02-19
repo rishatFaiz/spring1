@@ -52,7 +52,7 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
         .autoApprove(true)
         .and()
         .withClient("article-service")
-        .secret("secret")
+        .secret("{noop}secret")
         .authorizedGrantTypes(
             "password","authorization_code", "refresh_token")
         .scopes("read");
